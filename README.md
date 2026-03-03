@@ -11,5 +11,5 @@ chezmoi add ~/.bashrc
 ### To setup a new machine
 
 ```bash
-chezmoi init --aply https://github.com/karanshah229/dotfiles.git
+chezmoi init --apply https://github.com/karanshah229/dotfiles.git
 ```
