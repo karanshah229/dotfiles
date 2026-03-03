@@ -1,0 +1,14 @@
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+[[ -d "$HOME/.rd/bin" ]] && export PATH="$HOME/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+[[ -f "$HOME/.local/bin/env" ]] && . "$HOME/.local/bin/env"
+[[ -f "$HOME/.rsvm/current/cargo/env" ]] && . "$HOME/.rsvm/current/cargo/env"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+. "$HOME/.cargo/env"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

@@ -1,0 +1,12 @@
+
+[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
+
+# Personal Aliases
+alias curltime="curl -w \"@$HOME/curl-format.txt\" -o /dev/null -s "
+# Personal Aliases
+
+[[ -f "$HOME/.local/bin/env" ]] && . "$HOME/.local/bin/env"
+[[ -f "$HOME/.rsvm/current/cargo/env" ]] && . "$HOME/.rsvm/current/cargo/env"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+. "$HOME/.cargo/env"
